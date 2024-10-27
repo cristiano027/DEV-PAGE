@@ -223,5 +223,5 @@ span {
 .separator {
   display: grid;
   height: 320px;
-
+  padding-left: 10px;
 }

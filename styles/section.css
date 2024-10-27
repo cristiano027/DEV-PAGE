@@ -1,0 +1,227 @@
+.work {
+  background-color: var(--gray-200);
+  width: 1040px;
+  height: 584px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 24px;
+  grid-template-areas: 
+    "travelgram tech-news recipe"
+    "zingen refund tourism";
+    margin: auto;
+  
+    h3{
+      font: var(--title-sm);
+      color: var(--gray-600);
+      font-weight: bold;
+    }
+  
+    p {
+      font: var(--text-sm);
+      color: var(--gray-500);
+    }
+
+  
+  .itens-works {
+    width: 330px;
+    height: 280px;
+  }
+  
+  #seila {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 57px;
+  }
+  
+  
+  .item {
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    overflow: hidden; 
+    
+    img{
+      width: 306px;
+      height: 156px;
+      border-radius: 8px;
+      margin: 12px 12px 0px 12px;
+      margin-bottom: 20px;
+    }
+    
+    h3 {
+      padding-left: 16px;
+    }
+    
+    p {
+      width: 280px;
+      padding-left: 16px;
+      margin-top: 8px;
+    }
+  }
+  
+  .travelgram {
+    grid-area: travelgram;
+  }
+  
+  .tech-news {
+    grid-area: tech-news;
+  }
+  
+  .recipe {
+    grid-area: recipe;
+  }
+  
+  .zingen {
+    grid-area: zingen;
+  }
+  
+  .refund {
+    grid-area: refund;
+  }
+  
+  .tourism {
+    grid-area: tourism;
+  }
+}
+
+.service {
+  background-color: var(--gray-100);
+  height: 480px;
+  margin-top: 144px;
+  padding-top: 88px;
+  }
+
+  .contact {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    background-image: url(/assets/images/Background_Contacts.png);
+    background-size: cover;
+
+    p {
+      font: var(--text-md);
+      color: var(--gray-500);
+      padding-bottom: 48px;
+    }
+
+    h2 {
+      display: grid;
+      justify-content: center;
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-bottom: 10px;
+    }
+  }
+
+  #father-service{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 24px;
+
+  .servicess {
+    display: grid;
+    border-radius: 12px;
+    border: 3px solid var(--gray-200);
+    width: 280px;
+    height: 155px;
+  }
+
+  .img-service {
+    padding: 20px;
+  }
+
+  h3 {
+    font: var(--title-sm);
+    padding-left: 20px;
+    color: var(--gray-600);
+  }
+  
+  p {
+    padding-left: 20px;
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+}
+
+.title-distance {
+  display: grid;
+  justify-content: center;
+  font: var(--title-md);
+  color: var(--gray-600);
+  margin-bottom: 56px;
+}
+span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.work-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+#contact{
+  color: var(--purple);
+  font: var(--subtitle);
+  margin-top: 128px;
+}
+
+.box-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+
+  div {
+      display: grid;
+      grid-auto-flow: column;
+      margin-top: 18px;
+
+      img {
+        width: 26px;
+        height: 26px;
+        margin: 23px 0px 23px 23px;
+        margin-right: 12px;
+      }
+
+      p {
+        font: var(--text-md);
+        color: var(--gray-500);
+        margin-top: 26px;
+      }
+  }
+
+  a {
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+
+    span{
+      background-image: url(/assets/icons/link-arrow.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      text-decoration: none;
+      width: 13px;
+      height: 13px;
+      margin: 24px 30px 24px 0px;
+    }
+  }
+
+  a:hover {
+    span {
+      background-image: url(/assets/icons/link-arrow-hover.svg);
+    }
+  }
+}
+
+.separator {
+  display: grid;
+  height: 320px;
+
+}

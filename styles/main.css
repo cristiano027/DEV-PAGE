@@ -1,0 +1,143 @@
+main {
+  display: grid;
+  background-image: url(/assets/images/Background_Intro.png);
+  background-size: cover;
+  justify-items: center;
+  
+  #perfil {
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    object-fit: cover;
+    
+    border: 2px var(--red) solid;
+    padding: 3px;
+    margin-block: 128px 64px;
+  }
+  
+  .text-font {
+    font: var(--subtitle);
+  }
+  
+  a {
+    color: var(--red);
+    text-decoration: none;
+  }
+  
+  h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+    
+    margin-block: 20px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-400);
+  }
+  
+  
+  nav {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+  }
+  
+  .nav {
+    font: var(--text-md);
+  }
+  
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--gray-300);
+    
+    border-radius: 50px;
+    margin-top: 80px;
+  }
+  
+  div:nth-child(1) {
+    padding-left: 16px;
+    padding-bottom: 2px;
+    gap: 7px;
+    width: 114px;
+    height: 40px;
+    
+    img{
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
+  div:nth-child(2) {
+    padding-left: 16px;
+    padding-bottom: 1px;
+    gap: 7px;
+    width: 105px;
+    height: 40px;
+    
+    img{
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  div:nth-child(3) {
+    padding-left: 16px;
+    padding-bottom: 1px;
+    gap: 7px;
+    
+    width: 92px;
+    height: 40px;
+    
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  div:nth-child(4) {
+    padding-left: 16px;
+    padding-bottom: 2px;
+    gap: 10px;
+    width: 138px;
+    height: 40px;
+    
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  div:nth-child(5) {
+    padding-left: 16px;
+    padding-bottom: 2px;
+    gap: 10px;
+    width: 105px;
+    height: 40px;
+    
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  div:nth-child(6) {
+    padding-left: 16px;
+    padding-bottom: 2px;
+    gap: 12px;
+    width: 119px;
+    height: 40px;
+    
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  .nav {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+}
